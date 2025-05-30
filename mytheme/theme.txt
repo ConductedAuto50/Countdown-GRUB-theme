@@ -1,0 +1,62 @@
+title-text: ""
+desktop-image: "background.png"
+
++ label {
+	left = 0
+	top = 150
+	width = 1920
+	align = "center"
+	text = "Hello Ritvik"
+	item_font = "ubbold48.pf2"
+	color = "#ffffff"
+}
++ label {
+	left = 3
+	top = 153
+	width = 1920
+	align = "center"
+	text = "Hello Ritvik"
+	item_font = "ubbold48.pf2"
+	color = "#333"
+}
+
+
+
++ boot_menu {
+	left = 410
+	top = 300
+	width = 1100
+	height = 330
+	item_height = 40
+	icon_height = 40
+	icon_width = 40
+	item_color = "#ffffff"
+	selected_item_color = "#0077ee"
+	item_font = "ubbold16.pf2"
+	menu_pixmap_style = "boot_menu_*.png"
+	item_icon_space = 10
+	item_spacing = 30
+}
+
++ circular_progress {
+	id = "__timeout__"
+	left = 1470
+	top = 630
+	width = 350
+	height = 350
+	center_bitmap = "blank_circle.png"
+	tick_bitmap = "white_circle.png"
+	ticks_disappear = "true"
+	num_ticks = 200
+	
+}
+
++ label {
+	id = "__timeout__"
+	text = "%d"
+	top = 700
+	left = 1470
+	width = 350
+	align = "center"
+	color = "#fff"
+}
