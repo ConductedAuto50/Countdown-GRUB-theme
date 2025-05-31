@@ -7,7 +7,7 @@ desktop-image: "background.png"
 	width = 1920
 	align = "center"
 	text = "Hello Ritvik"
-	item_font = "ubbold48.pf2"
+	item_font = "Ubuntu Bold 48"
 	color = "#ffffff"
 }
 + label {
@@ -16,7 +16,7 @@ desktop-image: "background.png"
 	width = 1920
 	align = "center"
 	text = "Hello Ritvik"
-	item_font = "ubbold48.pf2"
+	item_font = "Ubuntu Bold 48"
 	color = "#333"
 }
 
@@ -26,13 +26,13 @@ desktop-image: "background.png"
 	left = 410
 	top = 300
 	width = 1100
-	height = 330
-	item_height = 40
+	height = 380
+	item_height = 50
 	icon_height = 40
 	icon_width = 40
 	item_color = "#ffffff"
 	selected_item_color = "#0077ee"
-	item_font = "ubbold16.pf2"
+	item_font = "Ubuntu Bold 36"
 	menu_pixmap_style = "boot_menu_*.png"
 	item_icon_space = 10
 	item_spacing = 30
@@ -59,4 +59,5 @@ desktop-image: "background.png"
 	width = 350
 	align = "center"
 	color = "#fff"
+	font = "DejaVu Sans Regular 144"
 }
