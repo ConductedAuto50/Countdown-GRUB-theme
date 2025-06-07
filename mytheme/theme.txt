@@ -3,24 +3,30 @@ desktop-image: "background.png"
 
 + label {
 	left = 0
-	top = 150
+	top = 100
 	width = 1920
 	align = "center"
 	text = "Hello Ritvik"
-	item_font = "Ubuntu Bold 48"
+	font = "Inter Regular 80"
 	color = "#ffffff"
 }
 + label {
 	left = 3
-	top = 153
+	top = 103
 	width = 1920
 	align = "center"
 	text = "Hello Ritvik"
-	item_font = "Ubuntu Bold 48"
+	font = "Inter Regular 80"
 	color = "#333"
 }
 
-
++ label {
+	left = 410
+	top = 250
+	text = "Choose OS:"
+	font = "Ubuntu Bold 36"
+	color = "#ffffff"
+}
 
 + boot_menu {
 	left = 410
@@ -38,25 +44,12 @@ desktop-image: "background.png"
 	item_spacing = 30
 }
 
-+ circular_progress {
-	id = "__timeout__"
-	left = 1470
-	top = 630
-	width = 350
-	height = 350
-	center_bitmap = "blank_circle.png"
-	tick_bitmap = "white_circle.png"
-	ticks_disappear = "true"
-	num_ticks = 200
-	
-}
-
 + label {
 	id = "__timeout__"
 	text = "%d"
-	top = 700
-	left = 1470
-	width = 350
+	top = 780
+	left = 1510
+	width = 410
 	align = "center"
 	color = "#fff"
 	font = "DejaVu Sans Regular 144"
