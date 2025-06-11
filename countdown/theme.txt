@@ -6,7 +6,7 @@ desktop-image: "background.png"
 	top = 100
 	width = 1920
 	align = "center"
-	text = "Hello Ritvik"
+	text = "Hello Rits"
 	font = "Inter Regular 80"
 	color = "#ffffff"
 }
@@ -15,14 +15,14 @@ desktop-image: "background.png"
 	top = 103
 	width = 1920
 	align = "center"
-	text = "Hello Ritvik"
+	text = "Hello Rits"
 	font = "Inter Regular 80"
 	color = "#333"
 }
 
 + label {
 	left = 410
-	top = 250
+	top = 320
 	text = "Choose OS:"
 	font = "Ubuntu Bold 36"
 	color = "#ffffff"
@@ -30,7 +30,7 @@ desktop-image: "background.png"
 
 + boot_menu {
 	left = 410
-	top = 300
+	top = 370
 	width = 1100
 	height = 380
 	item_height = 50
