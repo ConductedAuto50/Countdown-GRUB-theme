@@ -6,7 +6,7 @@ desktop-image: "background.png"
 	top = 100
 	width = 1920
 	align = "center"
-	text = "Hello Rits"
+	text = "Hello"
 	font = "Inter Regular 80"
 	color = "#ffffff"
 }
@@ -15,7 +15,7 @@ desktop-image: "background.png"
 	top = 103
 	width = 1920
 	align = "center"
-	text = "Hello Rits"
+	text = "Hello"
 	font = "Inter Regular 80"
 	color = "#333"
 }
